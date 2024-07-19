@@ -1,6 +1,6 @@
 # MoralBERT: A Fine-Tuned Language Model for Capturing Moral Values in Social Discussions
 
-This repository contains the code for the MoralBERT paper submitted to ACM GoodIT 2024. The work involves training BERT models to predict moral values from social media text. 
+This repository contains the code for the MoralBERT paper accepted at ACM GoodIT 2024. The work involves training BERT models to predict moral values from social media text. 
 Baseline models, including a lexicon-based model and a machine learning model, are also provided.
 
 ## Repository Structure
@@ -8,11 +8,16 @@ Baseline models, including a lexicon-based model and a machine learning model, a
 ### 1. MoralBERT_Code
 This folder contains Python Jupyter Notebook files for training MoralBERT and predicting moral values in text. 
 The models are fine-tuned on annotated social media datasets and are designed to understand and predict the representation of moral values based on the Moral Foundations Theory (MFT).
+The code demonstrates the prediction of 10 moral foundations, each handled individually by a single classification model. You can also include Liberty/Oppression (when the data is available and annotated accordingly) using the same script.
 
 ### 2. Baseline_Code
 This folder hosts Python Jupyter Notebook files for baseline models built with the MoralStrength Lexicon and a Word2Vec with Random Forest Model.
 
-### 3. Data
+### 3. GPT4_Code
+This folder hosts Python Jupyter Notebook file for utilising GPT-4 zero shot classification model for predicting moral foundations.
+
+
+### 4. Data
 To fine-tune the models with the same data, please download the datasets as follows:
 
 - **Moral Foundations Twitter Corpus**: [Download the corpus here](https://osf.io/k5n7y/)
