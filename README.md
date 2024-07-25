@@ -1,6 +1,6 @@
 # MoralBERT: A Fine-Tuned Language Model for Capturing Moral Values in Social Discussions
 
-This repository contains the code for the MoralBERT paper accepted at ACM GoodIT 2024. The work involves training BERT models to predict moral values from social media text. 
+This repository contains the code for the MoralBERT paper accepted at ACM GoodIT 2024 (preprint: https://arxiv.org/abs/2403.07678). The work involves training BERT models to predict moral values from social media text. 
 Baseline models, including a lexicon-based model and a machine learning model, are also provided.
 
 ## Repository Structure
