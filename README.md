@@ -11,7 +11,7 @@ The models are fine-tuned on annotated social media datasets and are designed to
 The code demonstrates the prediction of 10 moral foundations, each handled individually by a single classification model. You can also include Liberty/Oppression (when the data is available and annotated accordingly) using the same script.
 
 ### 2. Baselines
-This folder hosts Python Jupyter Notebook files for baseline models built with the MoralStrength Lexicon and a Word2Vec with Random Forest Model.
+This folder hosts Python Jupyter Notebook files for baseline models built with the MoralStrength Lexicon (see the [paper](https://www.sciencedirect.com/science/article/pii/S095070511930526X) and the [GitHub page](https://github.com/oaraque/moral-foundations)) and a Word2Vec with Random Forest Model using [scikit-learn](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html) machine learning library.
 
 ### 3. GPT4
 This folder hosts Python Jupyter Notebook file for utilising GPT-4 zero shot classification model for predicting moral foundations.
