@@ -3,6 +3,9 @@
 This repository contains the code for the MoralBERT paper accepted at ACM GoodIT 2024 ([click here for the paper](https://dl.acm.org/doi/10.1145/3677525.3678694)). The work involves training BERT models to predict moral values from social media text. 
 Baseline models, including a lexicon-based model and a machine learning model, are also provided.
 
+## MoralBERT Web App
+If you want to apply moral automatic annotation in your text without having to write any code, head over to [MoralBERTApp](https://huggingface.co/spaces/vjosap/MoralBERTApp).
+
 ## Repository Structure
 
 ### 1. MoralBERT
